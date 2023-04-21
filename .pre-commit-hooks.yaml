@@ -1,7 +1,7 @@
 -   id: prettier
     name: prettier
     description: ''
-    entry: prettier --write --list-different --ignore-unknown
+    entry: prettier --write --list-different --ignore-unknown --loglevel debug
     language: node
     'types': [text]
     args: []
